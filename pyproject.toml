@@ -1,0 +1,17 @@
+[project]
+name = "common-toolz"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kirill", email = "2spybot@gmail.com" }
+]
+requires-python = ">=3.11.4"
+dependencies = []
+
+[project.scripts]
+common-toolz = "common_toolz:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
